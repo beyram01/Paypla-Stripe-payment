@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+.merch-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 4rem;
+}
+.merch-card {
+  justify-self: center;
+  width: 250px;
+}
+.merch-img {
+  align-self: center;
+  width: 250px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.cart {
+  padding: 0 4rem;
+  padding-top: 5rem;
+}
+.cart > h2 {
+  text-align: center;
+}
+.cart-row,
+.item {
+  display: flex;
+  gap: 5%;
+}
+.cart-item,
+.item-name {
+  width: 50%;
+}
+.cart-price,
+.item-price {
+  width: 20%;
+}
+.cart-quantity,
+.actions {
+  width: 20%;
+}
+
+.cart-row > span {
+  font-weight: bold;
+}
+.quantity {
+  width: 50px;
+}
